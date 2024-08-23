@@ -1,0 +1,42 @@
+.form-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.form-content {
+    width: 45vw;
+    display: grid;
+    row-gap: 2rem;
+    label {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: var(--secondary-color);
+
+        input[type="text"] {
+            padding: 1rem;
+            background-color: var(--stroke-weak);
+            border: 1px solid var(--primary-color);
+            border-radius: 5px;
+
+            font-size: 1.5rem;
+            font-family: "Patua One", serif;
+            font-weight: normal;
+        }
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+    }
+    .form-button {
+        width: calc(100% / 3);
+        justify-self: end;
+        background-color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+        padding: 1rem;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        font-family: "Patua One", serif;
+    }
+}

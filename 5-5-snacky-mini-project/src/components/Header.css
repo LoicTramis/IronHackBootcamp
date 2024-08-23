@@ -1,0 +1,10 @@
+.Header {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  padding: 1rem;
+}
+.logoTitle {
+  display: flex;
+  flex-direction: row;
+}

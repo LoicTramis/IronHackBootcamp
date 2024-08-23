@@ -1,0 +1,106 @@
+.salads-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 2rem;
+
+  .no-fruit-message {
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .salads-ingredients {
+    width: 100%;
+
+    margin: 1.5rem 0;
+
+    ul {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 1rem;
+
+      li {
+        list-style-type: none;
+        width: 10%;
+        padding: 0.5rem;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 10px;
+      }
+    }
+    .salads-nutriments {
+      width: 100%;
+      justify-content: space-between;
+
+      li {
+        width: calc(50% - 1rem);
+
+        h4 {
+          font-size: 1.2rem;
+        }
+
+        table {
+          width: 100%;
+
+          th {
+            width: calc(100% / 3);
+          }
+          th:first-child {
+            text-align: right;
+          }
+          th:last-child {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .salads-buttons {
+    display: flex;
+    gap: 3rem;
+    justify-content: end;
+
+    button {
+      padding: 0.6rem;
+      font-family: "Outfit";
+      font-size: 1rem;
+      border: 1px solid;
+      border-radius: 5px;
+      user-select: none;
+      width: calc(100% / 8);
+    }
+    button.button-delete {
+      color: red;
+      background-color: hsla(0, 100%, 50%, 0.2);
+      border-color: red;
+      box-shadow: 0 0 3px hsla(0, 100%, 50%, 0.7);
+    }
+    button.button-save {
+      color: green;
+      background-color: hsla(120, 100%, 50%, 0.2);
+      border-color: green;
+      box-shadow: 0 0 3px hsla(120, 100%, 50%, 0.7);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+    button:active {
+      opacity: 0.7;
+      box-shadow: none;
+    }
+    button:disabled {
+      color: grey;
+      box-shadow: none;
+      background-color: hsla(120, 0%, 50%, 0.2);
+      border-color: grey;
+      cursor: not-allowed;
+    }
+    button:disabled:active {
+      opacity: 1;
+    }
+  }
+}

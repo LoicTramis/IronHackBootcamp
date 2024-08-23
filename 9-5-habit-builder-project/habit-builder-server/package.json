@@ -1,0 +1,32 @@
+{
+  "name": "habit-builder-server",
+  "version": "1.0.0",
+  "description": "Good habit tracker",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoicTramis/habit-builder-server.git"
+  },
+  "author": "Loïc Tramis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoicTramis/habit-builder-server/issues"
+  },
+  "homepage": "https://github.com/LoicTramis/habit-builder-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+    --dark-bg-color: #252525;
+    --light-bg-color: #e7dbd3;
+
+    --dark-primary-color: #161616;
+    --dark-secondary-color: #4e4e4e;
+    --light-color: #d8d6d6;
+
+    --primary-color: #fda403;
+    --secondary-color: #e8751a;
+    --stroke-strong: #898121;
+    --stroke-weak: #ffc96f;
+
+    --side-color: #ffcc00;
+    --lamb-color: #ff6600;
+    --beef-color: #cc3300;
+    --vegetarian-color: #66cc33;
+    --starter-color: #99ccff;
+    --miscellaneous-color: #9966cc;
+    --dessert-color: #ff99cc;
+    --seafood-color: #3399ff;
+    --breakfast-color: #ffcc66;
+    --pork-color: #ff6666;
+    --pasta-color: #cccc00;
+    --chicken-color: #cc9966;
+    --goat-color: #669966;
+    --vegan-color: #33cc99;
+}

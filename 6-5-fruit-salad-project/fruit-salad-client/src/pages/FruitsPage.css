@@ -1,0 +1,11 @@
+.fruits-content {
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+
+  padding: 1rem;
+  gap: 1rem;
+}

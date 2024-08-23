@@ -1,0 +1,47 @@
+.fruit-aside {
+  padding: 1rem 0 0 1rem;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  li {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-stroke-weak);
+    border-radius: 20px;
+    padding: 0.2rem 0.8rem;
+    li:hover {
+      background-color: hsl(0, 0%, 75%);
+    }
+    a {
+      color: inherit;
+      width: 100%;
+      text-decoration: none;
+    }
+  }
+  .delete-button {
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-color: initial;
+    img {
+      height: 16px;
+    }
+  }
+  .delete-button:hover {
+    border-color: red;
+    cursor: pointer;
+  }
+}

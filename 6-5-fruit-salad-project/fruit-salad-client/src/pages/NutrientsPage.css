@@ -1,0 +1,33 @@
+.nutrients-content {
+  width: 75vw;
+  padding: 2rem;
+}
+.nutrients-info {
+  padding-left: 1.5rem;
+  li {
+    list-style-type: none;
+    margin: 2rem 0;
+
+    section {
+      display: flex;
+      flex-direction: row;
+      margin: 1rem 0;
+      justify-content: start;
+      align-items: center;
+
+      .nutrient-symbol {
+        flex-shrink: 0;
+        align-content: center;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid var(--color-stroke-strong);
+        border-radius: 5px;
+      }
+      .nutrient-role {
+        width: auto;
+        margin-left: 1rem;
+      }
+    }
+  }
+}

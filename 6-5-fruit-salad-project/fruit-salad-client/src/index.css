@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/Outfit-Medium.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* brand colors */
+  --color-brand: hsl(110, 81%, 31%);
+  --color-brand-stroke-strong: hsla(110, 81%, 31%, 0.8);
+  --color-brand-stroke-weak: hsla(110, 81%, 31%, 0.2);
+  --color-brand-fill: hsla(110, 81%, 31%, 0.05);
+  /* regular colors */
+  --color-text-strong: hsla(0, 0%, 0%, 0.9);
+  --color-text-weak: hsla(0, 0%, 0%, 0.6);
+  --color-stroke-strong: hsla(0, 0%, 0%, 0.45);
+  --color-stroke-weak: hsla(0, 31%, 15%, 0.1);
+  --color-fill: hsla(0, 0%, 0%, 0.04);
+  --color-background: hsl(0, 0%, 100%);
+}
