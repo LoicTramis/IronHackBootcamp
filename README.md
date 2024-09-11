@@ -1,12 +1,19 @@
-# IRON HACK LABS & PROJECT
+# IRON HACK BOOTCAMP
 
-Summary of labs and projects that I made during the IronHack bootcamp:
-
-- [Labs](#labs)
-- [Projects](#projects)
-
-_Iron Hack is a school with **project-oriented** learning method._  
+_Iron Hack is a school with a **project-oriented** learning method._  
 _This bootcamp language was only **english** and lasted 9 weeks._
+
+- [Projects](#projects)
+- [Labs](#labs)
+
+## PROJECTS
+
+|       NAME        |      Goal       |                              Overview                               |                           GITHUB                            |                                                      SLIDES                                                      | LIVE                                                      |
+| :---------------: | :-------------: | :-----------------------------------------------------------------: | :---------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: | --------------------------------------------------------- |
+|  **MATTER GAME**  |  Create atoms   |  <img src="Projects/images/mg_home.png" width="200" height="100">   | [GitHub](https://github.com/LoicTramis/matter-game-project) | 🎥[Slides](https://docs.google.com/presentation/d/1V5USoVJSnDvbDtdO8cXx8qSUgImTIw9NFpLS1JHfUTo/edit#slide=id.p)  | [Live](https://loictramis.github.io/matter-game-project/) |
+|    **SNACKY**     | Manage recipes  |   <img src="Projects/images/snacky.png" width="200" height="100">   |                _Collaborative local project_                |
+|  **FRUITRIENT**   | Nutrional value | <img src="Projects/images/fruitrient.png" width="200" height="100"> | [GitHub](https://github.com/LoicTramis/matter-game-project) | 🎥[Slides](https://docs.google.com/presentation/d/1QPZkkM2lvvq2v0aqARFiW-hbYG7C3kS1cvoyi1JfeGw/edit?usp=sharing) | [Live](https://fruit-salad.netlify.app/)                  |
+| **HABIT BUILDER** |  Forge habits   |   <img src="Projects/images/habit.png" width="200" height="100">    | [GitHub](https://github.com/LoicTramis/matter-game-project) | 🎥[Slides](https://docs.google.com/presentation/d/1_KSQ8Pt5jwqWQ4i_LXswy0WlLNc7-mRjahKqhMxPQDM/edit?usp=sharing) | [Live](https://habit-builder.netlify.app/)                |
 
 ## LABS
 
@@ -22,69 +29,3 @@ _This bootcamp language was only **english** and lasted 9 weeks._
 |  8   |   Token Based Auth | Assessment                   |
 |  9   |   _Time managment_ | **_`Project`_**              |
 |  10  | _Stress managment_ | _Jury + Public presentation_ |
-
-## Projects
-
-|             Project             |     Goal     | Group size | Stack | Duration |
-| :-----------------------------: | :----------: | :--------: | :---: | :------: |
-|   [Matter Game](#matter-game)   | Canvas / DOM |     1      | Front |  5 days  |
-|        [Snacky](#snacky)        |    React     |     2      | Front |  5 days  |
-|   [Fruit Salad](#fruit-salad)   |   +Express   |     1      | Full  |  5 days  |
-| [Habit Builder](#habit-builder) |   +MongoDB   |     1      | Full  | 10 days  |
-
-### Matter Game
-
-Create matter by combining elementary particles
-
-Tech:
-
-- HTML Canvas
-- JS DOM Manipulation
-- JS Classes
-
-### Snacky
-
-Manage recipes (first collaborative project of the bootcamp)
-
-Tech:
-
-- React
-- React Router
-- Git (PR, branches)
-- JSON Files
-
-### Fruit Salad
-
-Combine fruits to make a salad and see nutrional value.
-
-**Front-End** tech:
-
-- React
-- React Router
-- Axios
-
-**Back-End** tech:
-
-- CORS
-- JSON Files
-
-### Habit builder
-
-Create habits by set up goals, deadline, frequency and invite friends to help
-
-**Front-End** tech:
-
-- TypeScript
-- React
-- React Router
-- TailwindCSS
-- Axios
-
-**Back-End** tech:
-
-- Express HTTP request
-- Express Router
-- CORS
-- JWT
-- Mongoose
-- MongoDB

@@ -1,14 +1,15 @@
 # Good habit builder
 
-_A progress everyday will go a very long way_
+_Build good habit by setting up goal, forming group around that goal and putting the work to make that change_
 
 <p style="font-size: 1.5rem; font-weight: bold; opacity: 0.8">
 <a href="https://habit-builder.netlify.app">🚀 LIVE VERSION 🚀</a>
 </p>
 
-<span style="font-weight: bold; color: #59ABE3;">DEMO ACCOUNT</span>: _louise.belcher<span>@</span>bob.com - password_
+<span style="font-weight: bold; color: #59ABE3;">DEMO ACCOUNT</span>:  
+_louise.belcher<span>@</span>bob.com - password_
 
-Build good habit by setting up goal, forming group around that goal and putting the work to make that change
+
 
 <!--
 TODO - Add: Dark mode
